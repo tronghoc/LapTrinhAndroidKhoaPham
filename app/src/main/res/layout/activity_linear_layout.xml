@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="10">
+    <!-- 2-3-4-1-->
+    <!--    <TextView-->
+    <!--        android:layout_weight="2"-->
+    <!--        android:textColor="#00FF0D"-->
+    <!--        android:background="#FF5100"-->
+    <!--        android:textSize="30sp"-->
+    <!--        android:text="Android"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="match_parent"/>-->
+    <LinearLayout
+        android:background="#FF5100"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:gravity="center"
+            android:text="1"
+            android:layout_weight="2"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <TextView
+            android:background="#FFF"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:text="2"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+    </LinearLayout>
+    <!--    <TextView-->
+    <!--        android:layout_weight="2"-->
+    <!--        android:textColor="#00B7FF"-->
+    <!--        android:background="#D0FF00"-->
+    <!--        android:textSize="30sp"-->
+    <!--        android:text="IOS"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="match_parent"/>-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#D0FF00"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:gravity="center"
+            android:layout_weight="2"
+            android:text="3"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <TextView
+            android:gravity="center"
+            android:background="#0055FF"
+            android:layout_weight="4"
+            android:text="4"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="3"
+            android:text="5"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+    </LinearLayout>
+    <!--    <TextView-->
+    <!--        android:layout_weight="3"-->
+    <!--        android:textColor="#00B7FF"-->
+    <!--        android:background="#596815"-->
+    <!--        android:textSize="30sp"-->
+    <!--        android:text="C#"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="match_parent"/>-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_weight="6"
+            android:background="#FF9800"
+            android:text="6"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <TextView
+            android:background="#00BCD4"
+            android:text="7"
+            android:textSize="30sp"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_weight="4"
+        android:textColor="#00B7FF"
+        android:background="#2FFF00"
+        android:textSize="30sp"
+        android:text="PHP"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+</LinearLayout>

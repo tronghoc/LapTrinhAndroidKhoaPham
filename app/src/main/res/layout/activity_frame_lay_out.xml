@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+<Button
+    android:layout_gravity="bottom|center"
+    android:backgroundTint="#B81212"
+    android:text="Cập nhật"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"/>
+    <TextView
+        android:textColor="#F44336"
+        android:gravity="center"
+        android:text="Lập trình Android"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

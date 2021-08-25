@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.javacoban">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JavaCoBan">
+        <activity android:name=".dropdown"></activity>
+        <activity
+            android:name=".GridViewTimKiem"
+            android:label="Tìm Kiếm" />
+        <activity
+            android:name=".bai51GridviewNangCao"
+            android:label="GridView Nâng Cao" />
+        <activity
+            android:name=".bai50Gridview"
+            android:label="GridView Cơ Bản" />
+        <activity
+            android:name=".ListViewNangCao"
+            android:label="ListView Nâng Cao" />
+        <activity
+            android:name=".Bai42ListView"
+            android:label="ListView Cơ Bản" />
+        <activity
+            android:name=".bai38LapTrinhOPP1"
+            android:label="Lập trình OPP" />
+        <activity
+            android:name=".ontapSpinner"
+            android:label="Spinner" />
+        <activity
+            android:name=".Spiner"
+            android:label="Spinner" />
+        <activity
+            android:name=".CuocDuaKyThu"
+            android:label="Cuộc đua kì thú" />
+        <activity
+            android:name=".bai32SeakBar"
+            android:label="SeakBar" />
+        <activity
+            android:name=".HocProgressBar"
+            android:label="ProgressBar" />
+        <activity
+            android:name=".HocSwitch"
+            android:label="Switch" />
+        <activity
+            android:name=".HinhNgauNhien"
+            android:label="Hình ngẫu nhiên" />
+        <activity
+            android:name=".HinhBackgroungd"
+            android:label="Background" />
+        <activity
+            android:name=".TaoSoNgauNhieu"
+            android:label="Tạo số ngẫu nhiên" />
+        <activity
+            android:name=".baucua"
+            android:label="Bầu cua" />
+        <activity
+            android:name=".ConstraintLayout"
+            android:label="ContraintLayout" />
+        <activity
+            android:name=".TableLayOut"
+            android:label="TableLayout" />
+        <activity
+            android:name=".FrameLayOut"
+            android:label="FrameLayOut" />
+        <activity
+            android:name=".RelativeLayout"
+            android:label="RelativeLayout" />
+        <activity
+            android:name=".BaiTapLinearLayout"
+            android:label="Bài tập LinearLayout" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

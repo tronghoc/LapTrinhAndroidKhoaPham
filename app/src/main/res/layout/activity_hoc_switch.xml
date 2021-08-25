@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/hinhnen"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Switch
+        android:id="@+id/SwitchWifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="WIFI" />
+
+    <TextView
+
+        android:id="@+id/txtMau"
+        android:layout_marginLeft="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+<CheckBox
+    android:id="@+id/checkAndroid"
+    android:text="Android"
+    android:layout_marginLeft="120dp"
+    android:layout_marginTop="120dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/checkIOS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="150dp"
+        android:text="IOS" />
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/checkIOS"
+        android:id="@+id/btnXacNhan"
+        android:text="Xác nhận"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_below="@+id/btnXacNhan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RadioButton
+            android:id="@+id/radioSang"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="Sáng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/radioTrua"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="Trưa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/radioToi"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginRight="8.5dp"
+            android:text="Tối"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_marginLeft="145dp"
+            android:id="@+id/btnCheck"
+            android:text="Gửi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+</RelativeLayout>
