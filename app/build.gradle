@@ -26,6 +26,9 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    buildFeatures{
+        viewBinding = true;
+    }
 }
 
 dependencies {
@@ -39,4 +42,26 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'com.agrawalsuneet.androidlibs:dotsloader:1.4'
+    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
+
+    // DO NOT UPDATE! otherwise dialog buttons will have the wrong color (conflicts with Cyanea)
+    implementation 'com.google.android.material:material:1.0.0'
+
+    //Intro Library
+    implementation 'com.github.paolorotolo:appintro:v5.1.0'
+
+    //Pdf Viewer Library (Proguard config done)
+    //implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+
+    //License Presenter Library (Proguard config not needed)
+    implementation 'com.github.franmontiel:AttributionPresenter:1.0.1'
+
+    //Changelog Library (Proguard config not needed)
+    implementation 'io.github.tonnyl:whatsnew:0.1.1'
+
+    //Theme Engine
+    implementation 'com.jaredrummler:cyanea:1.0.2'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1';
 }
