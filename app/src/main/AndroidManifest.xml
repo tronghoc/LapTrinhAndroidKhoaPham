@@ -18,6 +18,9 @@
         android:theme="@style/Theme.JavaCoBan"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".NavigationDrawer"
+            android:exported="true" />
+        <activity
             android:name=".RecyclerView"
             android:exported="true" />
         <activity
@@ -61,9 +64,6 @@
         <activity
             android:name=".bai38LapTrinhOPP1"
             android:label="Lập trình OPP" />
-        <activity
-            android:name=".ontapSpinner"
-            android:label="Spinner" />
         <activity
             android:name=".Spiner"
             android:label="Spinner" />
