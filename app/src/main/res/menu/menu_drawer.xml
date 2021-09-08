@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group>
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:id="@+id/r1"
+        android:title="Beethroom"
+        android:icon="@drawable/ic_room1"/>
+    <item android:id="@+id/r2"
+        android:title="Bathroom"
+        android:icon="@drawable/ic_room2"/>
+    <item android:id="@+id/r3"
+        android:title="Metingroom"
+        android:icon="@drawable/ic_room3"/>
+</group>
+</menu>

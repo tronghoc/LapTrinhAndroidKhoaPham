@@ -18,7 +18,7 @@
         android:theme="@style/Theme.JavaCoBan"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".NavigationDrawer"
+            android:name=".menu_Navigation"
             android:exported="true" />
         <activity
             android:name=".RecyclerView"

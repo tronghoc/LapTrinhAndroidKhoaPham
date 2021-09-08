@@ -5,4 +5,6 @@
     <string name="hint_Email">Nhập Email</string>
     <string name="hint_Sodienthoai">Nhập số điện thoại</string>
     <string name="text_XacNhan">Xác nhận</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

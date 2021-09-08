@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
     };
 
     public void chuyenTrang(View view) {
-        Intent intent =new Intent(MainActivity.this, NavigationDrawer.class);
+        Intent intent =new Intent(MainActivity.this, menu_Navigation.class);
         startActivity(intent);
     }
 }
